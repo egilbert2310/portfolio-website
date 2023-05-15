@@ -2,6 +2,7 @@ import './App.css';
 import MainHeader from './components/main_header.component';
 import Nav from './components/nav.component';
 import About from './components/about.component';
+import Project from './components/project.component';
 import { useState } from 'react';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Nav/>
       <MainHeader jobtitle={"Data Engineer"}/>
       <About/>
+      <Project img_path={"blank"} title ={"test"} desc={"test"}/>
     </div>
   );
 }
