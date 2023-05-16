@@ -102,3 +102,51 @@ body{
   text-align: center;
   font-size: 1.5rem;
 }
+
+.project-title h2{
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project-grid{
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: repeat(3,6rem);
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+  width: max-content;
+}
+.project{
+  border-style: solid;
+  width: 10rem;
+  margin: 0%;
+}
+
+
+.project img{
+  /* border-style: solid; */
+}
+
+
+.project h3{
+  margin-left: 1rem;
+}
+
+.project p{
+  margin-left: 1rem;
+}
+
+.project button{
+  margin-left: .5rem;
+  margin-bottom: 0.5rem;
+}
