@@ -5,6 +5,7 @@ import About from './components/about.component';
 import Project from './components/project.component';
 import { useState } from 'react';
 import ProjectTitle from './components/project_title.component';
+import TestImage from './test-image.jpg'
 
 function App() {
   return (
@@ -16,12 +17,12 @@ function App() {
         <ProjectTitle/>
         <div className='project-container'>
           <div className='project-grid'>
-            <Project img_path={"src/test-image.jpg"} title ={"test"} desc={"test"}/>
-            <Project img_path={"src/test-image.jpg"} title ={"test"} desc={"test"}/>
-            <Project img_path={"src/test-image.jpg"} title ={"test"} desc={"test"}/>
-            <Project img_path={"src/test-image.jpg"} title ={"test"} desc={"test"}/>
-            <Project img_path={"src/test-image.jpg"} title ={"test"} desc={"test"}/>
-            <Project img_path={"src/test-image.jpg"} title ={"test"} desc={"test"}/>
+            <Project img={TestImage} title ={"test"} desc={"test"}/>
+            <Project img={TestImage} title ={"test"} desc={"test"}/>
+            <Project img={TestImage} title ={"test"} desc={"test"}/>
+            <Project img={TestImage} title ={"test"} desc={"test"}/>
+            <Project img={TestImage} title ={"test"} desc={"test"}/>
+            <Project img={TestImage} title ={"test"} desc={"test"}/>
           </div>
         </div>
       </div>

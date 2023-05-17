@@ -123,18 +123,22 @@ body{
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
-  gap: 5rem;
+  gap: 10rem;
+  row-gap: 5rem;
   width: max-content;
 }
 .project{
   border-style: solid;
-  width: 10rem;
+  width: fit-content;
   margin: 0%;
 }
 
 
 .project img{
-  /* border-style: solid; */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
 }
 
 
