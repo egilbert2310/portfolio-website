@@ -6,6 +6,7 @@ import Project from './components/project.component';
 import { useState } from 'react';
 import ProjectTitle from './components/project_title.component';
 import TestImage from './test-image.jpg'
+import ContactForm from './components/contact.component';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Project img={TestImage} title ={"test"} desc={"test"}/>
           </div>
         </div>
+        <ContactForm/>
       </div>
     </>
   )
