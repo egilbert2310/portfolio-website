@@ -1,20 +1,25 @@
 export default function ContactForm(){
     return(
-        <div>
-            <h2>Contact</h2>
-            <div>
-                <label htmlFor="">Name</label>
-                <input type="text" />
-                <input type="text" />
+        <div className="contact-container">
+            <form className="contact-form">
+                <h2>Contact</h2>
+            <div className="contact-inputs">
+                <div>
+                    <label htmlFor="name">Name*</label>
+                    <input type="text" name="first-name" id="name" placeholder="First Name" required/>
+                    <input type="text" name="last-name" id="name" placeholder="Last Name" required/>
+                </div>
+                <div>
+                    <label htmlFor="email">Email*</label>
+                    <input type="email" name="email" id="email" required/>
+                </div>
+                <div>
+                    <label htmlFor="message">Message*</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Submit</button>
             </div>
-            <div>
-                <label htmlFor="">Email</label>
-                <input type="text" />
-            </div>
-            <div>
-                <label htmlFor="">Message</label>
-                <input type="text" />
-            </div>
+            </form>
         </div>
     )
 }
