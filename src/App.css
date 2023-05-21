@@ -167,18 +167,37 @@ body{
   text-align: center;
 }
 
-.contact-inputs{
-  /* border-style: solid; */
+.contact-form{
+  width: 25%;
+}
+
+.contact-inputs input, textarea{
+  margin-top: .5rem;
+  margin-bottom: 1rem;
 }
 
 .contact-inputs label{
   display: block;
 }
 
+.contact-inputs button{
+  background-color: black;
+  color: white;
+  margin-bottom: 1rem;
+}
+
 #email, #message{
   width: 100%;
 }
 
+#first-name, #last-name{
+  width: 49.35%;
+}
 
+#first-name{
+  margin-right: .25rem;
+}
 
-
+#last-name{
+  margin-left: .25rem;
+}
