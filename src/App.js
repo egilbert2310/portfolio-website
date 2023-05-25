@@ -3,7 +3,6 @@ import MainHeader from './components/main_header.component';
 import Nav from './components/nav.component';
 import About from './components/about.component';
 import Project from './components/project.component';
-import { useState } from 'react';
 import ProjectTitle from './components/project_title.component';
 import TestImage from './test-image.jpg'
 import ContactForm from './components/contact.component';
@@ -18,12 +17,12 @@ function App() {
         <ProjectTitle/>
         <div className='project-container'>
           <div className='project-grid'>
-            <Project img={TestImage} title ={"test"} desc={"test"}/>
-            <Project img={TestImage} title ={"test"} desc={"test"}/>
-            <Project img={TestImage} title ={"test"} desc={"test"}/>
-            <Project img={TestImage} title ={"test"} desc={"test"}/>
-            <Project img={TestImage} title ={"test"} desc={"test"}/>
-            <Project img={TestImage} title ={"test"} desc={"test"}/>
+            <Project img={TestImage} title ={"COMING SOON"} desc={" "}/>
+            <Project img={TestImage} title ={"COMING SOON"} desc={" "}/>
+            <Project img={TestImage} title ={"COMING SOON"} desc={" "}/>
+            <Project img={TestImage} title ={"COMING SOON"} desc={" "}/>
+            <Project img={TestImage} title ={"COMING SOON"} desc={" "}/>
+            <Project img={TestImage} title ={"COMING SOON"} desc={" "}/>
           </div>
         </div>
         <ContactForm/>
