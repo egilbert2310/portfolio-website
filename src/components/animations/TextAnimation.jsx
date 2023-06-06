@@ -23,7 +23,7 @@ export default function TextAnimation(){
                 setTitle(title2)
             }
         },
-        play ? 6000 : null
+        play ? 4000 : null
     )
 
     useEffect(() =>{
