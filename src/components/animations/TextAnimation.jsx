@@ -5,22 +5,16 @@ import { useInterval } from "react-use";
 
 
 export default function TextAnimation(){
-    const title1 = 'Data Engineer'
-    const title2 = 'Software Engineer'
-
-    const title_arr = ['Data Engineer', 'Software Engineer', 'Data Scientist', 'Data Analyst', 'A Cool Guy']
-    const [titles, setTitle] = useState(title1)
+    const title_arr = ['Data Engineer', 'Software Engineer', 'Data Scientist', 'Data Analyst']
     const [count, setCount] = useState(0)
     const [play, setPlay] = useState(false)
 
     useInterval(
         () => {
-            setTitle(title1)
             setCount(count + 1)
 
-            if (count === 1){
+            if (count === title_arr.length - 1){
                 setCount(0)
-                setTitle(title2)
             }
         },
         play ? 4000 : null
@@ -28,7 +22,6 @@ export default function TextAnimation(){
 
     useEffect(() =>{
         const timer = setTimeout(() => {
-            setTitle(title2)
             setPlay(true)
         }, 4000)
 
@@ -36,7 +29,7 @@ export default function TextAnimation(){
     }, [])
 
     return (
-    <Wrapper>{titles}</Wrapper>
+    <Wrapper>{title_arr[count]}</Wrapper>
  )
 }
 
