@@ -131,8 +131,12 @@ body{
   border-style: solid;
   width: fit-content;
   margin: 0%;
+  cursor: pointer;
 }
 
+.project:hover{
+  outline: .2rem solid black;
+}
 
 .project img{
   border: 1px solid #ddd;

@@ -1,7 +1,12 @@
+import { useRef } from "react"
+
+
 export default function ContactForm(){
+        const form = useRef()
+        const sendEmail = () => {};
     return(
         <div className="contact-container">
-            <form className="contact-form">
+            <form ref = {form} onSubmit={sendEmail}  className="contact-form">
                 <h2>Contact</h2>
             <div className="contact-inputs">
                 <div>

@@ -3,11 +3,12 @@ export default function About(){
         <div className="about-container">
         <div className="about">
             <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Passionate about always trying to better myself, I embrace any challenges that come my way. 
+                As a life long learner, I enjoy taking on new projects that expand my knowledge on a particular subject, whether that be software engineering, 
+                data engineering, or data science. One of my favorite passtimes is playing the guitar, as I regulary like to jam with friends. 
+                I also enjoy brushing up on my math skills as it scratches the puzzle itch I have. 
+                Eventually, I would love to get into game development as a programming hobby.    
+            </p>
         </div>
         </div>
     )
